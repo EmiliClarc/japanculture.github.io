@@ -1,0 +1,102 @@
+html {
+    font-family: 'Pangolin', cursive;
+    background-image: url(japanflag.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+nav {
+    color: black;
+    margin: 15pxpx;
+    padding: 25px;
+}
+
+.JapanOpen {
+    height: 510px;
+    widh: 300px;
+}
+
+.Name {
+    margin-top: -50px;
+}
+
+.JapanOpenTxt {
+    float: left;
+    width: 76%;
+    height: 25%;
+
+}
+
+.JapanOpenTxt:hover {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: rgba(0, 0, 0, 1);
+    transition: 2.5s;
+}
+
+.JapanOpenImg {
+    width: 25%;
+    height: 50%;
+}
+
+p:hover {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: rgba(0, 0, 0, 1);
+    transition: 2.5s;
+}
+
+p {
+    transition: 2.5s;
+    padding: 45px;
+}
+
+img {
+    float: right;
+}
+
+.JapanNavigation {
+    position: relative;
+    left: -350px;
+    top: -100px;
+    transition: 2s;
+}
+
+.JapanNavigation:hover {
+    position: relative;
+    left: 1px;
+    transition: 2s;
+}
+
+.JapanCulture {
+    transform: rotate(180deg);
+    transform: rotateZ(270deg);
+    transition: 1.5s;
+    background-color: red;
+    width: 500px;
+    height: 40px;
+    position: relative;
+    left: -239px;
+    top: 200px;
+}
+
+.TK {
+    animation-name: Tangiro;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Tangiro {
+    from {
+        position: absolute;
+        top: 6380px;
+        left: 1480px;
+    }
+
+    to {
+        position: absolute;
+        top: 0px;
+        left: 1480px;
+    }
+}
